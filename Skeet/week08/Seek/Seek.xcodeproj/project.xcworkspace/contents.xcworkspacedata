@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../bird.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../bird.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../bullet.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../bullet.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../driver.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../flyingObject.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../flyingObject.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../game.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../point.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../point.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../rifle.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../rifle.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../uiDraw.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../uiInteract.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../uiInteract.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../../velocity.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../velocity.h">
+   </FileRef>
+   <FileRef
+      location = "self:Seek.xcodeproj">
+   </FileRef>
+</Workspace>
