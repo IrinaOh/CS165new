@@ -1,0 +1,49 @@
+/***********************************************************************
+* Program:
+*    Checkpoint 04a Classes
+*    Brother Dudley, CS165
+* Author:
+*    Sandro Tamborindegui
+* Summary:
+*    Summaries are not necessary for checkpoint assignments.
+* ***********************************************************************/
+
+#include <iostream>
+#include <string>
+
+/**********************************************************************
+* Class: Book
+***********************************************************************/
+class Book
+{
+   private:
+      std::string title;
+      std::string author;
+
+   public:
+      void prompt()
+      {
+         std::cout << "Title: ";
+         getline(std::cin, title);
+         std::cout << "Author: ";
+         getline(std::cin, author);
+      }
+
+      void display() 
+      {
+         std::cout << "\"" + title + "\" by " + author << std::endl;
+      }
+};
+
+/**********************************************************************
+ * Function: main will call class Book, prompt, and display
+ ***********************************************************************/
+int main()
+{
+   Book book;
+
+   book.prompt();
+   book.display();
+
+   return 0;
+}

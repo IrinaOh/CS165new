@@ -1,0 +1,38 @@
+/***********************
+ * File: money.cpp
+ ***********************/
+
+#include <iostream>
+#include <iomanip>
+
+#include "money.h"
+
+/*****************************************************************
+ * Function: prompt
+ * Purpose: Asks the user for values for dollars and cents
+ *   and stores them.
+ ****************************************************************/
+void Money :: prompt()
+{
+   int dollars;
+   int cents;
+
+   std::cout << "Dollars: ";
+   std::cin >> dollars;
+
+   std::cout << "Cents: ";
+   std::cin >> cents;
+
+   setDollars(dollars);
+   setCents(cents);
+}
+
+/*****************************************************************
+ * Function: display
+ * Purpose: Displays the value of the money object.
+ ****************************************************************/
+void Money :: display() const 
+{
+   std::cout << "$" << getDollars() << ".";
+   std::cout << setfill('0') << setw(2) << getCents();
+}
